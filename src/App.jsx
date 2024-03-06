@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Todo from "./Todo";
 
 function App() {
   return (
     <div className="App">
-      // Add code here....
+      <Todo />
     </div>
   );
 }
