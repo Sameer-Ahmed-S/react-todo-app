@@ -1,7 +1,7 @@
 import React from "react";
 
 function InputBox(props) {
-  const [addTask] =props;
+  const {addTask} =props;
   const [task,setTask]= useState('');
 
   const handleInput = (e) => {
